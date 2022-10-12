@@ -12,9 +12,11 @@
 
 right from your command line.
 
-## One-time setup
+## Setup
 
-### Install `fzf` - the command line fuzzy finder
+Before you can get started, you've got to set up a few things once.
+
+### 1. Install `fzf` - the command line fuzzy finder
 
 `lnks` is just a small script around `fzf`. Install it by following the [installation instructions](https://github.com/junegunn/fzf#installation) or simply by installing it from your package manager of choice:
 
@@ -24,14 +26,22 @@ sudo apt install fzf # Ubuntu
 sudo pacman -S fzf # Arch
 ```
 
-### Grab a copy of `lnks.sh`
+### 2. Grab a copy of this repository
 
 `git clone` this repo, fork it, or simply download the `lnks.sh` to your directory of choice.
 
 
-### Add your bookmarks
+### 3. Add your bookmarks
 
-Following the pattern in `bookmarks.txt` create your own (or even multiple) `.txt` files next to `lnks.sh` and throw all your bookmarks in there.
+Following the pattern in `bookmarks.txt` add all your bookmarks into one (or many) `.txt` files next to `lnks.sh`.
+
+Like this:
+
+```txt
+My bookmark https://example.com
+Stack Overflow https://stackoverflow.com
+lnks Git Repository https://github.com/hamvocke/lnks
+```
 
 The rules:
 
@@ -39,15 +49,8 @@ The rules:
 * Each line consists of a searchable name and a URL
 * The URL goes last and is separated from the searchable name with a `space`
 * The file needs to have the `.txt` extension
-* You can have as many `.txt` files next to `lnks.sh` as you feel like
+* You can have as many `.txt` files next to `lnks.sh` as you want
 
-Like this:
-
-```txt
-My bookmark https://example.com
-Stack Overflow https://stackoverflow.com
-lnk.sh Git Repository https://github.com/hamvocke/lnks
-```
 
 ### _Optional_: Create a global alias for easy access
 
@@ -55,7 +58,7 @@ Add this alias to your config so you can type `lnks` from any directory to open 
 
 
 ```bash
-# e.g. in your .bashrc or .zshrc
+# add this to e.g. your .bashrc or .zshrc
 
 alias lnks='~/your-lnks-dir/lnks.sh'
 ```
