@@ -31,7 +31,7 @@ sudo pacman -S fzf # Arch
 
 ### Add your bookmarks
 
-Following the pattern in the `bookmarks.txt` create your own (or even multiple) `.txt` files next to `lnks.sh` and throw all your bookmarks in there.
+Following the pattern in `bookmarks.txt` create your own (or even multiple) `.txt` files next to `lnks.sh` and throw all your bookmarks in there.
 
 The rules:
 
