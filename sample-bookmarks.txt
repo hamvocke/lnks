@@ -1,0 +1,6 @@
+lnks Git Repository https://github.com/hamvocke/lnks
+Stack Overflow https://stackoverflow.com
+Stack Overflow Admin Interface https://stackoverflow.com/admin.php
+GitHub https://github.com
+fzf Git Repository https://github.com/junegunn/fzf
+fzf Wiki https://github.com/junegunn/fzf/wiki
