@@ -4,6 +4,8 @@
 
 ![lnks demo](/demo/demo.gif)
 
+Check out [my blog post](https://www.hamvocke.com/blog/lnks-command-line-bookmarks/) for more details.
+
 ## Setup
 
 Before you can get started, you've got to set up a few things once.
