@@ -2,6 +2,8 @@
 
 `lnks` allows you to search through and open browser bookmarks on the command line. Use it for yourself or to share important bookmarks with your team.
 
+![lnks demo](/demo/demo.gif)
+
 ## Setup
 
 Before you can get started, you've got to set up a few things once.
