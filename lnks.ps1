@@ -11,7 +11,9 @@ Catch [System.Management.Automation.CommandNotFoundException]
   Exit 1
 }
 
-$selection = Get-Content ./bookmarks.txt | fzf `
+$lnksDirectory = Split-Path -Path $PSCommandPath -Parent
+
+$selection = Get-Content "$lnksDirectory\*.txt" | fzf `
   --border=rounded --margin=5% `
   --prompt="Search Bookmarks > " `
   --with-nth='1..-2' `
