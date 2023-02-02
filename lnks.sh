@@ -15,7 +15,7 @@ esac
 DEFAULT_BROWSER=$(sh $(dirname "$0")/get_default_browser.sh)
 
 # If chrome being used as default browser then updates the bookmarks file with Chrome bookmarks
-if [[ $DEFAULT_BROWSER = "com.google.chrome" || $DEFAULT_BROWSER = "google-chrome.desktop" ]]; then
+if [[ $DEFAULT_BROWSER = *"google"*"chrome"* ]]; then
   if ! [ -x "$(command -v jq)" ]; then
     echo "jq is not installed"
     exit 1
