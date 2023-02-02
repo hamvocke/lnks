@@ -16,10 +16,7 @@ DEFAULT_BROWSER=$(sh $(dirname "$0")/get_default_browser.sh)
 
 # If chrome being used as default browser then updates the bookmarks file with Chrome bookmarks
 if [[ $DEFAULT_BROWSER = *"google"*"chrome"* ]]; then
-  if ! [ -x "$(command -v jq)" ]; then
-    echo "jq is not installed"
-    exit 1
-  else
+  if [ -x "$(command -v jq)" ]; then
     echo "$(sh $(dirname "$0")/get_chrome_bookmarks.sh)" > ~/lnks/bookmarks.txt
   fi;
 fi;
