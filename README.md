@@ -47,6 +47,19 @@ The rules:
 * You can have as many `.txt` files next to `lnks.sh` as you want
 
 
+### _Optional (for chrome users)_: Install `jq`
+
+For Chrome users, `lnks` also has functionality to automatically update the Bookmarks.txt file with your Chrome bookmarks. To enable this functionality you need to install `jq`.
+
+`jq` is a command-line JSON processor. We use it here to parse the contents of the Chrome Bookmarks file so these can be added to the Bookmarks file. Install it by following the [installation instructions](https://stedolan.github.io/jq/download/) or via a package manager of your choice:
+
+```bash
+sudo apt-get install jq # Ubuntu
+brew install jq # Mac OS
+sudo pacman -S jq # Arch
+chocolatey install jq # Windows
+```
+
 ### _Optional_: Create a global alias for easy access
 
 Add this alias to your config so you can type `lnks` from any directory to open your bookmarks:
