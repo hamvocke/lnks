@@ -12,7 +12,7 @@ case "$OSTYPE" in
   *)        echo "unsupported OS: $OSTYPE" && exit 1 ;;
 esac
 
-ENTER_COMMAND="enter:execute(${OPEN_COMMAND} {-1} 2>/dev/null)"
+ENTER_COMMAND="enter:execute-silent(${OPEN_COMMAND} {-1})"
 
 cat "$(dirname "$0")"/*.txt | fzf \
   --border=rounded \
