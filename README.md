@@ -58,13 +58,17 @@ Add this alias to your config so you can type `lnks` from any directory to open 
 alias lnks='~/your-lnks-dir/lnks.sh'
 ```
 
+```powershell
+# add to $profile - check location with `Write-Output $profile`
+New-Alias lnks "$Home\your-lnks-dir\lnks.ps1"
+```
+
 ## Usage
 
-1. Run `lnks.sh`
+1. Run `lnks.sh` or `lnks.ps1`
 2. Type to run a fuzzy search against the names of your bookmarks
 3. Use arrow keys to navigate up and down
 4. Hit `Enter` to open a bookmark in your browser
-5. Hit `Esc` or `Ctrl-C` to exit
 
 
 ## Working with a team
