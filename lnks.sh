@@ -9,16 +9,9 @@ fi
 case "$OSTYPE" in
   darwin*)  OPEN_COMMAND="open" ;;
   linux*)   OPEN_COMMAND="xdg-open" ;;
-  *)        echo "unsupported OD: $OSTYPE" && exit 1 ;;
+  *)        echo "unsupported OS: $OSTYPE" && exit 1 ;;
 esac
 
-SELECTION=$(cat "$(dirname "$0")"/*.txt | fzf \
-  --border=rounded --margin=5% \
-  --prompt="Search Bookmarks > " \
-  --with-nth='1..-2' \
-  --preview='echo {-1}' --preview-window='up,1')
+ENTER_COMMAND="enter:execute(${OPEN_COMMAND} {-1} 2>/dev/null)"
 
-if [ -n "$SELECTION" ]; then
-    TARGET_LINK=$(echo $SELECTION | sed 's/^.*\(https.*\)$/\1/')
-    $OPEN_COMMAND $TARGET_LINK 2>/dev/null
-fi
+cat "$(dirname "$0")"/*.txt | fzf --border=rounded --margin=5% --prompt="Search Bookmarks > " --with-nth='1..-2' --bind="${ENTER_COMMAND}" --preview='echo {-1}' --preview-window='up,1'
