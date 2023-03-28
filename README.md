@@ -72,6 +72,11 @@ New-Alias lnks "$Home\your-lnks-dir\lnks.ps1"
 4. Hit `Enter` to open a bookmark in your browser
 
 
+```
+Usage: lnks.sh [OPTIONS...]
+  -k    --keep-open     Keep lnks open after selecting a bookmark
+```
+
 ## Working with a team
 
 `lnks` works well for software development teams. Use it to share a well-known list of bookmarks to your production and staging systems, your build pipelines, your bug tracker, important observability dashboards or whatever else might be relevant for your day to day work.
