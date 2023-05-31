@@ -25,6 +25,10 @@ case "$OSTYPE" in
   *)        echo "unsupported OS: $OSTYPE" && exit 1 ;;
 esac
 
+if uname -r | grep -q 'microsoft' ; then
+	open_command="explorer.exe"
+fi
+
 enter_command="enter:execute-silent(${open_command} {-1})"
 
 
