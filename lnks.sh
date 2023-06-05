@@ -30,6 +30,8 @@ enter_command="enter:execute-silent(${open_command} {-1})"
 
 if [ "$keep_open" = false ]; then
     enter_command="${enter_command}+abort"
+else
+    enter_command="${enter_command}+clear-query"
 fi
 
 cat "$(dirname "$0")"/*.txt | fzf \
