@@ -19,11 +19,15 @@ while [[ "$#" -gt 0 ]]; do
     shift
 done
 
-case "$OSTYPE" in
-  darwin*)  open_command="open" ;;
-  linux*)   open_command="xdg-open" ;;
-  *)        echo "unsupported OS: $OSTYPE" && exit 1 ;;
-esac
+
+if [[ $(grep -i Microsoft /proc/version) ]]; then
+    open_command="explorer.exe"
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+    open_command="open"
+elif [[ "$OSTYPE" == "linux"* ]]; then
+    open_command="xdg-open"
+fi
+
 
 enter_command="enter:execute-silent(${open_command} {-1})"
 
