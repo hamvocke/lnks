@@ -1,0 +1,15 @@
+name: vhs
+on:
+  push
+
+jobs:
+  vhs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: charmbracelet/vhs-action@v1
+        with:
+          path: 'test/demo.tape'
+      - name: Diff, Bart, Diff
+        run: diff vhs-recording.txt test/expected/vhs-recording.txt
+
