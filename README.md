@@ -66,7 +66,7 @@ New-Alias lnks "$Home\your-lnks-dir\lnks.ps1"
 
 ## Usage
 
-1. Run `lnks.sh` (Linux, Mac) or `lnks.ps1` (Windows)
+1. Run `lnks.sh` (Linux, Mac, WSL) or `lnks.ps1` (Windows)
 2. Type to run a fuzzy search against the names of your bookmarks
 3. Use arrow keys to navigate up and down
 4. Hit `Enter` to open a bookmark in your browser
