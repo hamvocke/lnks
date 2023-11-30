@@ -10,6 +10,8 @@ jobs:
       - uses: charmbracelet/vhs-action@v1
         with:
           path: 'test/test.tape'
+      - name: Install fzf
+        run: sudo apt install -y fzf
       - name: Diff, Bart, Diff
         run: diff vhs-recording.txt test/expected/vhs-recording.txt
 
