@@ -14,7 +14,11 @@ jobs:
           path: 'test/test.tape'
       - name: Diff, Bart, Diff
         run: diff vhs-recording.txt test/expected/vhs-recording.txt
-      - uses: actions/upload-artifact@v3
+      - name: Store recording
+        uses: actions/upload-artifact@v3
         with:
-          name: vhs-recording.txt
-          path: vhs-recording.txt
+          name: vhs-recording
+          path: |
+            vhs-recording.txt
+            out.gif
+          retention-days: 3
