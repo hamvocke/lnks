@@ -13,7 +13,7 @@ jobs:
       - name: Install fzf
         run: sudo apt-get install -y fzf
       - name: Check fzf
-        run: which fzf
+        run: type fzf
       - name: Diff, Bart, Diff
         run: diff vhs-recording.txt test/expected/vhs-recording.txt
 
