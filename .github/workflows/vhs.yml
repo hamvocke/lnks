@@ -15,6 +15,7 @@ jobs:
       - name: Diff, Bart, Diff
         run: diff vhs-recording.txt test/expected/vhs-recording.txt
       - name: Store recording
+        if: always()
         uses: actions/upload-artifact@v3
         with:
           name: vhs-recording
