@@ -14,4 +14,7 @@ jobs:
           path: 'test/test.tape'
       - name: Diff, Bart, Diff
         run: diff vhs-recording.txt test/expected/vhs-recording.txt
-
+      - uses: actions/upload-artifact@v3
+        with:
+          name: vhs-recording.txt
+          path: vhs-recording.txt
