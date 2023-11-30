@@ -4,7 +4,7 @@ set -o pipefail
 set -o errexit
 set -o nounset
 
-if ! [ -x "$(command -v fzf)" ]; then
+if ! type fzf > /dev/null; then
     echo "fzf is not installed" >&2
     exit 1
 fi
@@ -26,11 +26,11 @@ while [[ "$#" -gt 0 ]]; do
     shift
 done
 
-if [[ $(grep --no-messages -i Microsoft /proc/version) ]]; then
+if type explorer.exe > /dev/null; then
     open_command="explorer.exe"
-elif [[ "$OSTYPE" == "darwin"* ]]; then
+elif type open > /dev/null; then
     open_command="open"
-elif [[ "$OSTYPE" == "linux"* ]]; then
+elif type xdg-open > /dev/null; then
     open_command="xdg-open"
 fi
 
