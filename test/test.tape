@@ -1,4 +1,4 @@
-Output vhs-recording.txt
+Output test/vhs-recording.txt
 
 Set FontSize 32
 Set Width 1200

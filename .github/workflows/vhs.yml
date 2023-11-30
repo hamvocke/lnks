@@ -13,13 +13,13 @@ jobs:
         with:
           path: 'test/test.tape'
       - name: Diff, Bart, Diff
-        run: diff vhs-recording.txt test/expected/vhs-recording.txt
+        run: diff test/vhs-recording.txt test/expected/vhs-recording.txt
       - name: Store recording
         if: always()
         uses: actions/upload-artifact@v3
         with:
           name: vhs-recording
           path: |
-            vhs-recording.txt
+            test/vhs-recording.txt
             out.gif
           retention-days: 3

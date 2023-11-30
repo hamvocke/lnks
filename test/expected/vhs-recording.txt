@@ -193,8 +193,8 @@
   │   GitHub                                     │
   │   Stack Overflow Admin Interface             │
   │   Stack Overflow                             │
-  │ > lnks Git Repository                       ││
-  │   186/186 ────────────────────────────────── │
+  │ > lnks Git Repository                        │
+  │   6/6 ────────────────────────────────────── │
   │ Search Bookmarks >                           │
   ╰──────────────────────────────────────────────╯
 
@@ -214,8 +214,8 @@
   │ > GitHub                                     │
   │   Stack Overflow Admin Interface             │
   │   Stack Overflow                             │
-  │   lnks Git Repository                       ││
-  │   186/186 ────────────────────────────────── │
+  │   lnks Git Repository                        │
+  │   6/6 ────────────────────────────────────── │
   │ Search Bookmarks >                           │
   ╰──────────────────────────────────────────────╯
 
@@ -235,8 +235,8 @@
   │   GitHub                                     │
   │   Stack Overflow Admin Interface             │
   │ > Stack Overflow                             │
-  │   lnks Git Repository                       ││
-  │   186/186 ────────────────────────────────── │
+  │   lnks Git Repository                        │
+  │   6/6 ────────────────────────────────────── │
   │ Search Bookmarks >                           │
   ╰──────────────────────────────────────────────╯
 
@@ -257,7 +257,7 @@
   │                                              │
   │ > Stack Overflow Admin Interface             │
   │   Stack Overflow                             │
-  │   2/186 ──────────────────────────────────── │
+  │   2/6 ────────────────────────────────────── │
   │ Search Bookmarks > stack                     │
   ╰──────────────────────────────────────────────╯
 
@@ -278,7 +278,7 @@
   │                                              │
   │   Stack Overflow Admin Interface             │
   │ > Stack Overflow                             │
-  │   2/186 ──────────────────────────────────── │
+  │   2/6 ────────────────────────────────────── │
   │ Search Bookmarks > stack                     │
   ╰──────────────────────────────────────────────╯
 
@@ -299,7 +299,7 @@
   │                                              │
   │                                              │
   │ > Stack Overflow Admin Interface             │
-  │   1/186 ──────────────────────────────────── │
+  │   1/6 ────────────────────────────────────── │
   │ Search Bookmarks > stack admin               │
   ╰──────────────────────────────────────────────╯
 
@@ -319,8 +319,8 @@
   │   GitHub                                     │
   │   Stack Overflow Admin Interface             │
   │   Stack Overflow                             │
-  │ > lnks Git Repository                       ││
-  │   186/186 ────────────────────────────────── │
+  │ > lnks Git Repository                        │
+  │   6/6 ────────────────────────────────────── │
   │ Search Bookmarks >                           │
   ╰──────────────────────────────────────────────╯
 
@@ -340,8 +340,8 @@
   │   GitHub                                     │
   │   Stack Overflow Admin Interface             │
   │   Stack Overflow                             │
-  │ > lnks Git Repository                       ││
-  │   186/186 ────────────────────────────────── │
+  │ > lnks Git Repository                        │
+  │   6/6 ────────────────────────────────────── │
   │ Search Bookmarks >                           │
   ╰──────────────────────────────────────────────╯
 
