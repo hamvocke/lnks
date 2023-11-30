@@ -184,17 +184,17 @@
   │ │ https://github.com/hamvocke/lnks          ││
   │ ╰───────────────────────────────────────────╯│
   │                                              │
-  │   Blog                                       │
-  │   GitHub dotfiles repo                       │
-  │   GitHub                                     │
-  │   Github Profile                             │
+  │                                              │
+  │                                              │
+  │                                              │
+  │                                              │
   │   fzf Wiki                                   │
   │   fzf Git Repository                         │
   │   GitHub                                     │
   │   Stack Overflow Admin Interface             │
   │   Stack Overflow                             │
   │ > lnks Git Repository                       ││
-  │   190/190 ────────────────────────────────── │
+  │   186/186 ────────────────────────────────── │
   │ Search Bookmarks >                           │
   ╰──────────────────────────────────────────────╯
 
@@ -205,17 +205,17 @@
   │ │ https://github.com                        ││
   │ ╰───────────────────────────────────────────╯│
   │                                              │
-  │   Blog                                       │
-  │   GitHub dotfiles repo                       │
-  │   GitHub                                     │
-  │   Github Profile                             │
+  │                                              │
+  │                                              │
+  │                                              │
+  │                                              │
   │   fzf Wiki                                   │
   │   fzf Git Repository                         │
   │ > GitHub                                     │
   │   Stack Overflow Admin Interface             │
   │   Stack Overflow                             │
   │   lnks Git Repository                       ││
-  │   190/190 ────────────────────────────────── │
+  │   186/186 ────────────────────────────────── │
   │ Search Bookmarks >                           │
   ╰──────────────────────────────────────────────╯
 
@@ -226,17 +226,17 @@
   │ │ https://stackoverflow.com                 ││
   │ ╰───────────────────────────────────────────╯│
   │                                              │
-  │   Blog                                       │
-  │   GitHub dotfiles repo                       │
-  │   GitHub                                     │
-  │   Github Profile                             │
+  │                                              │
+  │                                              │
+  │                                              │
+  │                                              │
   │   fzf Wiki                                   │
   │   fzf Git Repository                         │
   │   GitHub                                     │
   │   Stack Overflow Admin Interface             │
   │ > Stack Overflow                             │
   │   lnks Git Repository                       ││
-  │   190/190 ────────────────────────────────── │
+  │   186/186 ────────────────────────────────── │
   │ Search Bookmarks >                           │
   ╰──────────────────────────────────────────────╯
 
@@ -257,7 +257,7 @@
   │                                              │
   │ > Stack Overflow Admin Interface             │
   │   Stack Overflow                             │
-  │   2/190 ──────────────────────────────────── │
+  │   2/186 ──────────────────────────────────── │
   │ Search Bookmarks > stack                     │
   ╰──────────────────────────────────────────────╯
 
@@ -278,7 +278,7 @@
   │                                              │
   │   Stack Overflow Admin Interface             │
   │ > Stack Overflow                             │
-  │   2/190 ──────────────────────────────────── │
+  │   2/186 ──────────────────────────────────── │
   │ Search Bookmarks > stack                     │
   ╰──────────────────────────────────────────────╯
 
@@ -299,7 +299,7 @@
   │                                              │
   │                                              │
   │ > Stack Overflow Admin Interface             │
-  │   1/190 ──────────────────────────────────── │
+  │   1/186 ──────────────────────────────────── │
   │ Search Bookmarks > stack admin               │
   ╰──────────────────────────────────────────────╯
 
@@ -310,17 +310,17 @@
   │ │ https://github.com/hamvocke/lnks          ││
   │ ╰───────────────────────────────────────────╯│
   │                                              │
-  │   Blog                                       │
-  │   GitHub dotfiles repo                       │
-  │   GitHub                                     │
-  │   Github Profile                             │
+  │                                              │
+  │                                              │
+  │                                              │
+  │                                              │
   │   fzf Wiki                                   │
   │   fzf Git Repository                         │
   │   GitHub                                     │
   │   Stack Overflow Admin Interface             │
   │   Stack Overflow                             │
   │ > lnks Git Repository                       ││
-  │   190/190 ────────────────────────────────── │
+  │   186/186 ────────────────────────────────── │
   │ Search Bookmarks >                           │
   ╰──────────────────────────────────────────────╯
 
@@ -331,17 +331,17 @@
   │ │ https://github.com/hamvocke/lnks          ││
   │ ╰───────────────────────────────────────────╯│
   │                                              │
-  │   Blog                                       │
-  │   GitHub dotfiles repo                       │
-  │   GitHub                                     │
-  │   Github Profile                             │
+  │                                              │
+  │                                              │
+  │                                              │
+  │                                              │
   │   fzf Wiki                                   │
   │   fzf Git Repository                         │
   │   GitHub                                     │
   │   Stack Overflow Admin Interface             │
   │   Stack Overflow                             │
   │ > lnks Git Repository                       ││
-  │   190/190 ────────────────────────────────── │
+  │   186/186 ────────────────────────────────── │
   │ Search Bookmarks >                           │
   ╰──────────────────────────────────────────────╯
 
