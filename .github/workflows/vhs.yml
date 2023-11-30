@@ -13,7 +13,7 @@ jobs:
         with:
           path: 'test/test.tape'
       - name: Diff, Bart, Diff
-        run: diff test/vhs-recording.txt test/expected/vhs-recording.txt
+        run: diff -u test/vhs-recording.txt test/expected/vhs-recording.txt
       - name: Store recording
         if: always()
         uses: actions/upload-artifact@v3
