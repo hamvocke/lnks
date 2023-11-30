@@ -1,6 +1,6 @@
 Output test/vhs-recording.txt
 
-Set FontSize 32
+Set FontSize 16
 Set Width 1200
 Set Height 900
 
