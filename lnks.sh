@@ -44,7 +44,6 @@ fi
 
 cat "$(dirname "$0")"/*.txt | fzf \
   --border=rounded \
-  --margin=5% \
   --prompt="Search Bookmarks > " \
   --with-nth='1..-2' \
   --bind="${enter_command}" \
