@@ -1,8 +1,8 @@
 Output test/vhs-recording.txt
 
 Set FontSize 16
-Set Width 1200
-Set Height 900
+Set Width 1000
+Set Height 600
 
 Type "./lnks.sh" 
 Enter
