@@ -12,7 +12,7 @@ jobs:
           FZF_RELEASE=fzf-0.44.1-linux_amd64.tar.gz
           wget https://github.com/junegunn/fzf/releases/download/0.44.1/${FZF_RELEASE}
           tar xvf ${FZF_RELEASE}
-          cp fzf /usr/bin
+          sudo cp fzf /usr/bin
           fzf --version
       - uses: charmbracelet/vhs-action@v1
         with:
