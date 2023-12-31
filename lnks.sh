@@ -12,7 +12,7 @@ fi
 keep_open=false
 
 usage () {
-  echo "Usage: $(basename $0) [OPTIONS...]"
+  echo "Usage: $(basename "$0") [OPTIONS...]"
   echo "  -k    --keep-open     Keep lnks open after selecting a bookmark"
   exit 0
 }
