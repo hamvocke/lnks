@@ -22,7 +22,7 @@ usage () {
 while [[ "$#" -gt 0 ]]; do
     case $1 in
         -k|--keep-open) keep_open=true ;;
-		-d|--dir) dir="$2"; shift ;; # TODO: validation
+        -d|--dir) dir="$2"; shift ;; # TODO: validation
         -h|--help) usage ;;
         *) echo "Unknown parameter passed: $1" >&2; exit 1 ;;
     esac
