@@ -74,7 +74,8 @@ New-Alias lnks "$Home\your-lnks-dir\lnks.ps1"
 
 ```
 Usage: lnks.sh [OPTIONS...]
-  -k    --keep-open     Keep lnks open after selecting a bookmark
+  -k        --keep-open     Keep lnks open after selecting a bookmark
+  -d <dir>  --dir <dir>     Specify a directory bookmarks are stored (*nix only)
 ```
 
 ## Working with a team
