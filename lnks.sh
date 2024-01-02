@@ -12,9 +12,9 @@ fi
 keep_open=false
 
 usage () {
-  echo "Usage: $(basename $0) [OPTIONS...]"
-  echo "  -k    --keep-open     Keep lnks open after selecting a bookmark"
-  exit 0
+    echo "Usage: $(basename $0) [OPTIONS...]"
+    echo "  -k    --keep-open     Keep lnks open after selecting a bookmark"
+    exit 0
 }
 
 while [[ "$#" -gt 0 ]]; do
@@ -43,9 +43,9 @@ else
 fi
 
 cat "$(dirname "$0")"/*.txt | fzf \
-  --border=rounded \
-  --prompt="Search Bookmarks > " \
-  --with-nth='1..-2' \
-  --bind="${enter_command}" \
-  --preview='echo {-1}' \
-  --preview-window='up,1'
+    --border=rounded \
+    --prompt="Search Bookmarks > " \
+    --with-nth='1..-2' \
+    --bind="${enter_command}" \
+    --preview='echo {-1}' \
+    --preview-window='up,1'

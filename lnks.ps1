@@ -23,7 +23,7 @@ if ($keepOpen)
 }
 else
 {
-  $enterCommand += "+abort"  
+  $enterCommand += "+abort"
 }
 
 $lnksDirectory = Split-Path -Path $PSCommandPath -Parent
