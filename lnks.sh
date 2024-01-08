@@ -13,16 +13,16 @@ keep_open=false
 dir="$(dirname "$0")"
 
 usage () {
-  echo "Usage: $(basename "$0") [OPTIONS...]"
-  echo "  -k        --keep-open     Keep lnks open after selecting a bookmark"
-  echo "  -d <dir>  --dir <dir>     Specify a directory bookmarks are stored"
-  exit 0
+    echo "Usage: $(basename "$0") [OPTIONS...]"
+    echo "  -k        --keep-open     Keep lnks open after selecting a bookmark"
+    echo "  -d <dir>  --dir <dir>     Specify a directory where bookmarks files are stored"
+    exit 0
 }
 
 while [[ "$#" -gt 0 ]]; do
     case $1 in
         -k|--keep-open) keep_open=true ;;
-        -d|--dir) dir="$2"; shift ;; # TODO: validation
+        -d|--dir) dir="$2"; shift ;;
         -h|--help) usage ;;
         *) echo "Unknown parameter passed: $1" >&2; exit 1 ;;
     esac
@@ -46,9 +46,9 @@ else
 fi
 
 cat "$dir"/*.txt | fzf \
-  --border=rounded \
-  --prompt="Search Bookmarks > " \
-  --with-nth='1..-2' \
-  --bind="${enter_command}" \
-  --preview='echo {-1}' \
-  --preview-window='up,1'
+    --border=rounded \
+    --prompt="Search Bookmarks > " \
+    --with-nth='1..-2' \
+    --bind="${enter_command}" \
+    --preview='echo {-1}' \
+    --preview-window='up,1'

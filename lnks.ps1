@@ -1,7 +1,8 @@
 #!/usr/bin/env pwsh
 
 param (
-  [switch][Alias("k", "keep-open")] $keepOpen = $false
+  [switch][Alias("k", "keep-open")] $keepOpen = $false,
+  [Alias("d", "dir")] $lnksDirectory
 )
 
 try
@@ -26,12 +27,13 @@ else
   $enterCommand += "+abort"
 }
 
-$lnksDirectory = Split-Path -Path $PSCommandPath -Parent
+if ($lnksDirectory -eq $null) {
+  $lnksDirectory = Split-Path -Path $PSCommandPath -Parent
+}
 
 Get-Content "$lnksDirectory\*.txt" | fzf `
-  --border=rounded --margin=5% `
+  --border=rounded `
   --prompt="Search Bookmarks > " `
   --with-nth='1..-2' `
   --bind=$enterCommand `
   --preview='echo {-1}' --preview-window='up,1'
-
