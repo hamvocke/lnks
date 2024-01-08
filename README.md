@@ -23,7 +23,7 @@ choco install fzf # Windows
 
 ### 2. Grab a copy of this repository
 
-`git clone` this repo, fork it, or simply download the `lnks.sh` and `bookmarks.txt` files to your directory of choice.
+`git clone` this repo, fork it, or simply download the `lnks.sh` and `bookmarks.txt` files to your directory of choice. You can also grab one of [the releases](https://github.com/hamvocke/lnks/releases) if you favor some more stability.
 
 
 ### 3. Add your bookmarks
